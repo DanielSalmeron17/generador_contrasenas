@@ -1,0 +1,38 @@
+/* Fondo degradado y centrado vertical */
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Tarjeta principal */
+.card {
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Caja donde se muestra la contraseña */
+.password-box, #passwordField {
+    font-weight: bold;
+    font-size: 1.2rem;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    word-break: break-all;
+}
+
+/* Mensaje de copia al portapapeles */
+#copyMessage {
+    color: #28a745; /* verde Bootstrap */
+    display: none;
+    margin-top: 5px;
+}
+
+/* Ajustes de botón y formulario */
+.btn {
+    margin-top: 10px;
+}
